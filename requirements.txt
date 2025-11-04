@@ -1,6 +1,7 @@
 ipywidgets
 pandas
 plotly
-graphviz
+##graphviz
 markdown
+
 voila
