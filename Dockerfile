@@ -18,4 +18,4 @@ COPY . .
 
 # 6. Definir el comando de inicio (reemplaza al Procfile)
 # Escucha en todos los hosts (0.0.0.0) y en el puerto que Render asigne
-CMD voila APP_SM_V3_Definitiva.ipynb --port=$PORT --ip=0.0.0.0 --no-browser --Voila.server_url=/
+CMD voila APP_SM_V3_Definitiva.ipynb --Voila.ip=0.0.0.0 --Voila.port=$PORT --no-browser --Voila.server_url=/
