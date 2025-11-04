@@ -3,7 +3,7 @@ FROM python:3.10-slim
 
 # 2. Instalar el software Graphviz (el ejecutable 'dot') en el sistema
 # Esta es la línea que soluciona el problema
-RUN apt-get update && apt-get install -y graphviz && \
+#RUN apt-get update && apt-get install -y graphviz && \
     rm -rf /var/lib/apt/lists/*
 
 # 3. Preparar el directorio de la app
