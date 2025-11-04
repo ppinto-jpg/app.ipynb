@@ -3,6 +3,5 @@ pandas
 plotly
 graphviz
 markdown
-
 voila
-
+ipykernel
